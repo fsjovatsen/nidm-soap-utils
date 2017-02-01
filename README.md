@@ -22,7 +22,7 @@ For more information see:
 The format should be `secure=false responseElement=response`
 
 | Key | Description | Default value |
--------------------------------------
+|-----|-------------|---------------|
 | secure | true if SOAP service is running on https. For more information see (documentation)[https://www.novell.com/documentation/dirxmldrivers/javadoc/api/]. | false |
 | responseElement | Name of the element to wrap around the text. Not with <>. | response |
 
