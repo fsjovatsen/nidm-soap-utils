@@ -10,7 +10,7 @@ For more information see:
  * (Javadocs for the ByteArrayModifiers interface)[https://www.novell.com/documentation/dirxmldrivers/javadoc/api/]
 
 ## Install
-* (Download)[] the jar file
+* (Download)[https://github.com/fsjovatsen/nidm-soap-utils/releases/tag/v1.0.0] the jar file
 * Copy the jar file to the IDM server
 * See (documentation)[https://www.netiq.com/documentation/idm45drivers/soapdriver/data/bvpan6m.html] on how to configure the extention in the driver
 
