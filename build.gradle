@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+jar {
+	baseName = 'nidm-soap-utils'
+	version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+	flatDir { dirs './libs' }
+}
+
+dependencies {
+	compile name: 'SOAPShim'
+	testCompile('org.spockframework:spock-core:1.0-groovy-2.4')
+}
+
+
+
+
+
