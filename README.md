@@ -6,13 +6,13 @@ The extention checks if the response from the SOAP ws is XML. If it is not XML i
 
 For more information see:
 
- * (NetIQ documentation)[https://www.netiq.com/documentation/idm45drivers/soapdriver/data/chdhjcej.html]
- * (Javadocs for the ByteArrayModifiers interface)[https://www.novell.com/documentation/dirxmldrivers/javadoc/api/]
+ * [NetIQ documentation](https://www.netiq.com/documentation/idm45drivers/soapdriver/data/chdhjcej.html)
+ * [Javadocs for the ByteArrayModifiers interface](https://www.novell.com/documentation/dirxmldrivers/javadoc/api/)
 
 ## Install
-* (Download)[https://github.com/fsjovatsen/nidm-soap-utils/releases/tag/v1.0.0] the jar file
+* [Download](https://github.com/fsjovatsen/nidm-soap-utils/releases/tag/v1.0.0) the jar file
 * Copy the jar file to the IDM server
-* See (documentation)[https://www.netiq.com/documentation/idm45drivers/soapdriver/data/bvpan6m.html] on how to configure the extention in the driver
+* See [documentation](https://www.netiq.com/documentation/idm45drivers/soapdriver/data/bvpan6m.html) on how to configure the extention in the driver
 
 ### Java class parameter
 `com.github.idm.drivers.soap.ByteArrayModifiersExt`
@@ -23,7 +23,7 @@ The format should be `secure=false responseElement=response`
 
 | Key             | Description                                                                                                                                            | Default value |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| secure          | `true` if SOAP service is running on https. For more information see (documentation)[https://www.novell.com/documentation/dirxmldrivers/javadoc/api/]. | `false`       |
+| secure          | `true` if SOAP service is running on https. For more information see [documentation](https://www.novell.com/documentation/dirxmldrivers/javadoc/api/). | `false`       |
 | responseElement | Name of the element to wrap around the text. Not with <>.                                                                                              | `response`    |
 
 ## Build
